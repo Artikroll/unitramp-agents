@@ -6,6 +6,7 @@
 <title>UNITRAMP для агентов · приведите клиента на парк</title>
 <meta name="description" content="Агентская программа UNITRAMP для архитекторов, дизайнеров, брокеров и управляющих ТЦ. Готовые материалы для каждого типа клиента и вознаграждение за проект.">
 <style>
+html{overflow-x:clip}
 @font-face{font-family:'Lit';src:url(assets/fonts/Literata.ttf) format('truetype');font-weight:200 900;font-display:swap}
 @font-face{font-family:'Nun';src:url(assets/fonts/NunitoSans.ttf) format('truetype');font-weight:200 1000;font-display:swap}
 :root{--bg:#FCFBF8;--soft:#F1EEE7;--ink:#14181B;--muted:#62686C;--line:#E2DED5;--teal:#0F4C5C;--teal2:#0A3946;--amb:#F2B33D;--r:20px}
@@ -207,7 +208,7 @@ form .r2{grid-template-columns:1fr}
         <h1>Приведите клиента. <i>Парк построим мы</i></h1>
         <p class="lead">Для архитекторов, дизайнеров, брокеров и управляющих ТЦ. Вы знаете, кому нужен парк. Мы делаем проект, производство и монтаж, а вам даём готовые материалы и вознаграждение за проект.</p>
         <div class="row"><a class="btn" href="#form">Стать агентом</a><a class="btn o" href="#kit">Посмотреть материалы</a></div>
-        <small>Без вступительных взносов и обязательных объёмов <span class="gap ok">условия программы</span></small>
+        <small>Без вступительных взносов и обязательных объёмов</small>
       </div>
       <div class="hph"><img src="assets/img/hero.jpg" alt="Скалодром и лабиринт в парке «Сказка»"><div class="badge"><b>13</b><span>готовых сайтов под каждый тип клиента: отправляете ссылку, клиент смотрит сам</span></div></div>
     </div>
@@ -255,6 +256,7 @@ form .r2{grid-template-columns:1fr}
         <div class="eye" id="kFor" style="margin:0"></div>
         <h3 id="kName"></h3>
         <p class="why" id="kWhy"></p>
+        
         <textarea class="msg" id="kMsg" aria-label="Текст сообщения клиенту"></textarea>
         <div class="acts"><button class="btn" id="kCopy">Скопировать сообщение</button><button class="btn o" id="kLink">Только ссылку</button><a class="btn o" id="kOpen" target="_blank" rel="noopener">Открыть сайт</a></div>
       </div>
@@ -282,7 +284,7 @@ form .r2{grid-template-columns:1fr}
     <div class="get">
       <div class="gc" data-r><b>1</b><h3>Готовые материалы</h3><p>13 сайтов под разные задачи, видео, кейсы с фото и цифрами. Клиент изучает сам и пересылает партнёрам.</p></div>
       <div class="gc" data-r><b>2</b><h3>Бесплатный старт для клиента</h3><p>Бабл-схема и зонирование до уровня 04 без оплаты. Клиент видит, что поместится в его помещение.</p></div>
-      <div class="gc" data-r><b>3</b><h3>Личный менеджер</h3><p>Один человек ведёт ваших клиентов и сообщает о статусе сделок. <span class="gap ok">как агент видит статус</span></p></div>
+      <div class="gc" data-r><b>3</b><h3>Личный менеджер</h3><p>Один человек ведёт ваших клиентов и сообщает о статусе сделок.</p></div>
     </div>
   </div>
 </section>
@@ -303,9 +305,8 @@ form .r2{grid-template-columns:1fr}
   <div class="wrap">
     <div class="head c"><div class="eye">Вопросы</div><h2>Что спрашивают агенты</h2></div>
     <div class="faq">
-      <details><summary>Нужно ли ИП или самозанятость?</summary><div class="a"><p><span class="gap">форма договора и статуса агента</span></p></div></details>
-      <details><summary>Что если клиент уже обращался к вам?</summary><div class="a"><p>Проверим по CRM в момент заявки и сразу скажем, закреплён ли клиент. <span class="gap">правило, если клиент уже в базе</span></p></div></details>
-      <details><summary>Когда выплачивается вознаграждение?</summary><div class="a"><p>После оплаты клиентом. <span class="gap">этапы выплаты</span></p></div></details>
+      <details><summary>Что если клиент уже обращался к вам?</summary><div class="a"><p>Проверим по CRM в момент заявки и сразу скажем, закреплён ли клиент.</p></div></details>
+      <details><summary>Когда выплачивается вознаграждение?</summary><div class="a"><p>После оплаты клиентом.</p></div></details>
       <details><summary>Можно работать с клиентом за рубежом?</summary><div class="a"><p>Да. Для зарубежных клиентов есть сайт на английском, который можно показать под названием вашей компании.</p></div></details>
       <details><summary>Обязательно ли участвовать во встречах?</summary><div class="a"><p>Нет. Достаточно передать контакт, дальше ведёт наш менеджер. Если хотите, подключим вас к встречам и обсуждению проекта.</p></div></details>
     </div>
